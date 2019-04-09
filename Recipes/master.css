@@ -1,0 +1,54 @@
+html,body {margin-left: 0px;
+          font-family:sans-serif;
+          font-size:120%;
+}
+section {margin: auto;
+          margin-left:3rem;
+          min-width:30rem;
+          max width:50rem;
+}
+
+nav{background-color: lightblue;
+
+    position:fixed;
+    margin-top:-5.15rem;
+    opacity:0.8;
+    width:100%;
+    height:4.9rem;
+
+
+
+
+}
+
+nav ul {list-style-type: none;}
+nav ul li a{display:block;
+            border:2px solid black;
+            padding:0.5rem;
+            max-width:10rem;
+            margin:0.2rem;
+            text-decoration:none;
+            float:left;
+
+}
+
+nav ul li a:hover{background-color:darkgrey;
+
+}
+
+nav:hover{opacity:1;}
+
+h1{text-align: center;
+  background-color: grey;
+  color: white;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  position:fixed;
+  top:0px;
+  width:100%;
+  margin:0px;
+}
+
+img {width: 20rem;}
+
+article {margin-top:9rem;}
