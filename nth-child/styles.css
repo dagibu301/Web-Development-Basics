@@ -1,0 +1,31 @@
+
+/* 1) Colors */
+#middlemarch  li:nth-child(n+3) {color:red;}
+#middlemarch li:nth-child(-n+2) {color:blue;}
+#middlemarch  li:nth-child(8) {color:blue;}
+#taletwocities li:nth-child(n+4) {color:blue;}
+#taletwocities li:nth-child(-n+3) {color:red;}
+
+/* 2) Bold*/
+#middlemarch  li:nth-child(1) {font-weight:900;}
+#taletwocities  li:nth-child(2) {font-weight:900;}
+
+/* 3)  italicized */
+#middlemarch  li:nth-child(5) {font-style:italic;}
+#taletwocities  li:nth-child(5) {font-style:italic;}
+
+/* 4) Roman numerals & 6) Spaced & 7) move right*/
+#middlemarch {list-style-type:upper-roman;
+              line-height:1.5rem;
+              padding-left:100px;
+              }
+
+/* 5) Alpha */
+#taletwocities {list-style-type:upper-alpha;}
+
+/* 8) No serif (sans means without in french)& others*/
+html, body {font-family:sans-serif;
+            padding-left: 45px;
+            padding-top: 20px;
+            background: lightgrey;
+            }
